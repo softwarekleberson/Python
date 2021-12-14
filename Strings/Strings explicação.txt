@@ -1,0 +1,87 @@
+							Strings
+
+// pega o elemento 9, na frase
+frase[9] 
+
+//pega do elemento 9 e vai até o 12, o ultimo elemento é excluido
+frase[9:13]
+
+//fatiamento, pulando posições
+frase[9:21:2]
+
+//fatiamneto do inicio ate uma posição, vai do 0 até o 4
+frase[:5]
+
+//pega de uma posicao e vai até o fim
+frase[15:]
+
+
+//pega uma posicao vai até o fim, pulando
+frase[15::3]
+
+
+//tamano da frase
+len(frase)
+
+
+//conta quantos caracteres  expecificos exixtem
+frase.count('o')
+
+
+//contagem de caractere com fatiamento, conta do 0 até o 13
+frase.count('o',0,13)
+
+
+//encontra a posição de uma frase em expecifico, de onde ela começa
+frase.find('deo')
+
+
+//se não encontar a posicao, vai retorna -1
+frase.find('androide')
+
+
+//retorna verdadeiro,caso encontre
+'curso' in frase
+
+
+//troca a frase por outra, deste modo o conteudo trocado será salvo
+frase = frase.replace('python','android')
+
+
+//Transforma as letras em maisculo
+frase.upper()
+
+
+//transforma o que erá maisculo em minusculo
+frase.lower()
+
+
+//Trandforma apenas a primeira letra em maiscula e as outras em minusculas
+frase.capitalize()
+
+
+//transforma a primeira letra de cada palavara em maisculo
+frase.title()
+
+
+//retirar os espaços vazios na frase, inicio e fim
+frase.strip()
+
+
+//retira os espaços vazios a direita
+frase.rstrip()
+
+
+//retira os espaços vazios a esquerda
+frase.lstrip()
+
+
+//retira os espaços entre as palavras e começa cada palavra com o 0
+//coloca tudo em uma lista,como se fossem novos elementos
+
+
+frase.splite()
+
+
+//desfazer o que o splite faz
+' '.join(frase)
