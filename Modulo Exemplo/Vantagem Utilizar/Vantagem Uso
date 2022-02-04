@@ -1,0 +1,28 @@
+							Modulos
+
+Organização do codigo
+
+Facilidade na manutenção
+
+Ocultação de codigo detalhado
+
+Reutilização em outros projetos
+
+
+							Pacotes
+
+Nada mais é que um monte de modulos dentro de um pacote, como se o Pacote fosse a sacola 
+e os Modulos fossem a mercadoria
+
+						Como Importar
+
+import uteis
+from uteis import datas
+from uteis import cores
+
+
+						Criar Modulos
+
+É como criar uma pasta normalmente (criação dos pacotes), os modulus são subpastas dentro dessa pasta mãe
+
+

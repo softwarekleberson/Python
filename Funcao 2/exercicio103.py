@@ -10,7 +10,7 @@ if gols.isnumeric():
 
 else:
     gols = 0
-
+    
 if nome.strip() == '':
     ficha(gols=gols)
 

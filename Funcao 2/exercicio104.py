@@ -1,4 +1,5 @@
 def leiaInt(msg):
+    
     ok = False
     valor = 0
     
